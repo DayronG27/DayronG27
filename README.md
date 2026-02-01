@@ -1,8 +1,4 @@
-<p align="center">
-  <samp>
-    Hi,<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/Hi.gif" width="20px"> I'm Vimal kumar Web designer and developer working on <a href="https://github.com/letskhabar">@Letskhabar :octocat:</a> and Open Source Project manager at  <a href="https://github.com/IIITians-Network">@IIITians-Networks :octocat:</a>. Student at IIIT Ranchi :india:
-  </samp>
-</p>
+
 
 
 <img align="right" width="375" alt="GIF" src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/dino.gif" />
