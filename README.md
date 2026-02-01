@@ -1,5 +1,4 @@
-<video src="banner.mp4" width="100%" autoplay loop muted>
-</video>
+<img src="banner.gif" width="100%">
 
 <p align="center">
   <samp>
