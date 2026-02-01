@@ -1,8 +1,5 @@
-
-<p align="center">
-  <video src="Dayron Gonzalez.mp4" width="100%" autoplay loop muted>
-  </video>
-</p>
+<video src="Dayron Gonzalez.mp4" width="100%" autoplay loop muted>
+</video>
 
 <p align="center">
   <samp>
