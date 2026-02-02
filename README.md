@@ -1,4 +1,7 @@
 <img src="banner.gif" width="100%">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=rect&color=000000&height=100&section=header&text=%20&fontSize=50" />
+</p>
 
 <p align="center">
   <samp>
