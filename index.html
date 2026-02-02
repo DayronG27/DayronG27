@@ -46,99 +46,39 @@
     
     .role-title { color: #00ffcc; font-size: 1.2em; }
 
-    /* ESTILO PARA LOS CUADROS DE TEXTO (BADGES) */
+    /* CONTENEDOR DE STACK */
     .skills { 
         display: flex; 
         justify-content: flex-start; 
         flex-wrap: wrap; 
-        gap: 10px; /* Espacio entre cuadros */
+        gap: 10px; 
         margin: 20px 0;
     }
 
+    /* ESTILO BASE DE LOS CUADROS */
     .skill-badge {
         background-color: #111;
         color: #ffffff;
-        border: 1px solid #00ffcc; /* Borde neón */
         padding: 8px 15px;
         border-radius: 5px;
         font-size: 0.9em;
         font-weight: bold;
         transition: 0.3s;
+        border: 1px solid #ffffff; /* Color por defecto */
     }
 
-    .skill-badge:hover {
-        background-color: #00ffcc;
-        color: #000;
-        box-shadow: 0 0 10px #00ffcc;
-    }
+    /* CLASES DE COLORES ESPECÍFICOS */
+    .sql { border-color: #336791; } /* Azul PostgreSQL */
+    .sql:hover { background: #336791; box-shadow: 0 0 10px #336791; color: #fff; }
 
-    a { 
-        color: #00ffcc; 
-        text-decoration: none; 
-        border: 1px solid #00ffcc; 
-        padding: 10px 20px; 
-        margin-right: 10px; 
-        margin-bottom: 10px;
-        display: inline-block; 
-        transition: 0.3s;
-    }
-    a:hover { background: #00ffcc; color: #000; box-shadow: 0 0 10px #00ffcc; }
-    
-    hr { border: 0; border-top: 1px solid #333; margin: 20px 0; }
-</style>
-</head>
-<body>
+    .api { border-color: #FF6C37; } /* Naranja Postman */
+    .api:hover { background: #FF6C37; box-shadow: 0 0 10px #FF6C37; color: #fff; }
 
-    <div class="banner-container">
-        <img src="banner.gif" alt="Banner" class="banner-img">
-    </div>
+    .qa { border-color: #00ffcc; } /* Cian QA/Scrum */
+    .qa:hover { background: #00ffcc; box-shadow: 0 0 10px #00ffcc; color: #000; }
 
-    <div class="container">
-        <p class="role-title"><strong>Analista QA | Agile Scrum | Postman</strong></p>
-        <p>Apasionado por la tecnología, con experiencia en el desarrollo de aplicaciones web y herramientas de código abierto. Enfocado en la calidad del software, la automatización de pruebas y la arquitectura escalable.</p>
+    .lang { border-color: #f7df1e; } /* Amarillo Lenguajes */
+    .lang:hover { background: #f7df1e; box-shadow: 0 0 10px #f7df1e; color: #000; }
 
-        <hr>
-
-        <h2>🛠️ Stack Tecnológico</h2>
-        <div class="skills">
-            <span class="skill-badge">PostgreSQL</span>
-            <span class="skill-badge">Postman</span>
-            <span class="skill-badge">TestLink</span>
-            <span class="skill-badge">OTRS</span>
-            <span class="skill-badge">Agile Scrum</span>
-            <span class="skill-badge">PHP</span>
-            <span class="skill-badge">HTML/CSS</span>
-            <span class="skill-badge">Flutter</span>
-            <span class="skill-badge">GitLab</span>
-        </div>
-
-        <hr>
-        
-        <h2>🚀 Proyectos Destacados</h2>
-        <div style="margin-bottom: 20px;">
-            <h3>Master Portfolio</h3>
-            <p>Un portafolio profesional construido con React para mostrar proyectos de forma dinámica.</p>
-            <a href="https://github.com/vimalverma558/master-portfolio" target="_blank">Ver Repositorio</a>
-        </div>
-
-        <div style="margin-bottom: 20px;">
-            <h3>Prime-Num (NPM Package)</h3>
-            <p>Herramienta lógica desarrollada en Node.js para el manejo y validación de números primos.</p>
-            <a href="https://www.npmjs.com/package/prime-num" target="_blank">Ver en NPM</a>
-        </div>
-        
-        <hr>
-
-        <h2>🎓 Educación</h2>
-        <p><strong>Indian Institute of Information Technology (IIIT), Ranchi</strong><br>
-        Grado en Ingeniería / Tecnología | 2023 - Presente</p>
-
-        <hr>
-
-        <h2>📬 Contacto</h2>
-        <a href="mailto:tuemail@gmail.com">Enviar Email</a>
-        <a href="https://linkedin.com/in/tu-usuario" target="_blank">LinkedIn</a>
-    </div>
-
-</body>
-</html>
+    .mobile { border-color: #02569B; } /* Azul Flutter */
+    .mobile:hover { background: #02569B; box-shadow: 0 0 10px #02
