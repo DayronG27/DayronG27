@@ -40,21 +40,39 @@
     }
 
     h1 { font-size: 3em; margin-bottom: 5px; color: #ffffff; }
-    h2, h3 { color: #ffffff; }
+    h2, h3 { color: #ffffff; margin-top: 30px; }
     
-    /* CAMBIO CLAVE: Texto en blanco puro */
+    /* Texto en blanco puro para toda la bio */
     p { color: #ffffff; margin-top: 5px; line-height: 1.6; }
     
-    /* Resaltado opcional para el cargo */
-    .role-title { color: #00ffcc; font-size: 1.2em; }
+    .role-title { color: #00ffcc; font-size: 1.2em; margin-bottom: 15px; }
 
+    /* NUEVO ESTILO: Cuadros de texto para Stack Tecnológico */
     .skills { 
         display: flex; 
         justify-content: flex-start; 
         flex-wrap: wrap; 
+        gap: 12px; 
         margin: 20px 0;
     }
-    .skills img { margin-right: 15px; margin-bottom: 15px; }
+
+    .skill-badge {
+        background-color: #111;
+        color: #ffffff;
+        border: 1px solid #00ffcc; /* Borde neón a juego con el banner */
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 0.9em;
+        font-weight: bold;
+        transition: 0.3s ease;
+    }
+
+    .skill-badge:hover {
+        background-color: #00ffcc;
+        color: #000000;
+        box-shadow: 0 0 15px #00ffcc;
+        transform: translateY(-3px);
+    }
 
     a { 
         color: #00ffcc; 
@@ -66,56 +84,4 @@
         display: inline-block; 
         transition: 0.3s;
     }
-    a:hover { background: #00ffcc; color: #000; box-shadow: 0 0 10px #00ffcc; }
-    
-    hr { border: 0; border-top: 1px solid #333; margin: 20px 0; }
-</style>
-</head>
-<body>
-
-    <div class="banner-container">
-        <img src="banner.gif" alt="Banner" class="banner-img">
-    </div>
-
-    <div class="container">
-        <h1>DAYRON GONZALEZ</h1>
-        <p class="role-title"><strong>Analista QA | Agile Scrum | Postman</strong></p>
-        <p>Apasionado por la tecnología, con experiencia en el desarrollo de aplicaciones web y herramientas de código abierto. Enfocado en la calidad del software, la automatización de pruebas y la arquitectura escalable.</p>
-        
-        <hr>
-        
-        <h2>🚀 Proyectos Destacados</h2>
-        <div style="margin-bottom: 20px;">
-            <h3>Master Portfolio</h3>
-            <p>Un portafolio profesional construido con React para mostrar proyectos de forma dinámica.</p>
-            <a href="https://github.com/vimalverma558/master-portfolio" target="_blank">Ver Repositorio</a>
-        </div>
-
-        <div style="margin-bottom: 20px;">
-            <h3>Prime-Num (NPM Package)</h3>
-            <p>Herramienta lógica desarrollada en Node.js para el manejo y validación de números primos.</p>
-            <a href="https://www.npmjs.com/package/prime-num" target="_blank">Ver en NPM</a>
-        </div>
-        
-        <hr>
-
-        <h2>🛠️ Stack Tecnológico</h2>
-        <div class="skills">
-            <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,postgres,mongodb,py,git,github,postman,flutter&theme=dark" />
-        </div>
-
-        <hr>
-
-        <h2>🎓 Educación</h2>
-        <p><strong>Indian Institute of Information Technology (IIIT), Ranchi</strong><br>
-        Grado en Ingeniería / Tecnología | 2023 - Presente</p>
-
-        <hr>
-
-        <h2>📬 Contacto</h2>
-        <a href="mailto:tuemail@gmail.com">Enviar Email</a>
-        <a href="https://linkedin.com/in/tu-usuario" target="_blank">LinkedIn</a>
-    </div>
-
-</body>
-</html>
+    a:hover { background: #00ffcc; color: #000; box-shadow
