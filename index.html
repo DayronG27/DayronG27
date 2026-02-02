@@ -3,50 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Dayron Gonzalez | CV</title>
- <style>
-    body {
-        background-color: #000000;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        display: block; /* Cambiado de flex a block para eliminar el centrado automático */
-        margin: 0;
-        padding: 0;
-    }
-    .container { 
-        max-width: 900px; 
-        text-align: left; /* Asegura que el texto empiece a la izquierda */
-        padding: 40px; 
-        margin-left: 0; /* Empuja el contenido al borde izquierdo */
-    }
-    .banner-container {
-        width: 100%;
-        text-align: left; /* Alinea el banner a la izquierda */
-    }
-    .banner-img {
-        width: 100%;
-        max-width: 900px;
-        height: auto;
-        display: block;
-    }
-    h1 { font-size: 3em; margin-bottom: 10px; text-align: left; }
-    .skills { 
-        display: flex; 
-        justify-content: flex-start; /* Alinea los iconos a la izquierda */
-        flex-wrap: wrap; 
-        margin: 20px 0;
-    }
-    .skills img { margin-right: 15px; margin-bottom: 15px; transition: 0.3s; }
-    .skills img:hover { transform: scale(1.2); }
-    a { 
-        color: #00ffcc; 
-        text-decoration: none; 
-        border: 1px solid #00ffcc; 
-        padding: 10px; 
-        margin-right: 10px; /* Espacio entre botones hacia la derecha */
-        margin-bottom: 10px;
-        display: inline-block; 
-    }
-</style>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: block; 
+            margin: 0;
+            padding: 0;
+        }
+        /* CAMBIO AQUÍ: El contenedor del banner ahora centra su contenido */
+        .banner-container {
+            width: 100%;
+            text-align: center; /* Centra el banner */
+            background-color: #000;
+        }
+        .banner-img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            display: inline-block; /* Permite que responda al text-align: center */
+        }
+        /* El contenedor de texto permanece alineado a la izquierda */
+        .container { 
+            max-width: 900px; 
+            text-align: left; 
+            padding: 40px; 
+            margin-left: 0; /* Asegura que empiece desde la izquierda */
+        }
+        h1 { font-size: 3em; margin-bottom: 10px; text-align: left; }
+        .skills { 
+            display: flex; 
+            justify-content: flex-start; 
+            flex-wrap: wrap; 
+            margin: 20px 0;
+        }
+        .skills img { margin-right: 15px; margin-bottom: 15px; transition: 0.3s; }
+        .skills img:hover { transform: scale(1.2); }
+        a { 
+            color: #00ffcc; 
+            text-decoration: none; 
+            border: 1px solid #00ffcc; 
+            padding: 10px; 
+            margin-right: 10px; 
+            margin-bottom: 10px;
+            display: inline-block; 
+        }
+        a:hover { background: #00ffcc; color: #000; }
+        hr { border: 0; border-top: 1px solid #333; margin: 20px 0; }
+    </style>
 </head>
 <body>
 
