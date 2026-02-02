@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Dayron Gonzalez | CV</title>
- <style>
+<style>
     body {
         background-color: #000000;
         color: #ffffff;
@@ -12,26 +12,35 @@
         padding: 0;
     }
 
-    /* El banner se mantiene igual, centrado arriba */
+    /* Contenedor del banner: centrado en la página */
     .banner-container {
         width: 100%;
         text-align: center;
         background-color: #000;
         display: block;
     }
+
+    /* La imagen define el ancho de referencia (900px) */
     .banner-img {
         width: 100%;
         max-width: 900px;
         height: auto;
     }
 
-    /* AJUSTE CLAVE: Contenedor con margen automático para "centrarlo a la izquierda" */
+    /* El contenedor de texto usa el mismo max-width y se centra igual */
     .container { 
-        max-width: 800px; /* Limitamos el ancho para que no se estire demasiado */
-        margin: 0 auto;   /* Esto centra el bloque entero en la pantalla */
-        text-align: left; /* Pero mantiene el texto alineado a la izquierda dentro del bloque */
-        padding: 40px 20px; 
+        max-width: 900px; /* Igual al max-width de la imagen para alinear bordes */
+        margin: 0 auto;   /* Centra el bloque en la pantalla */
+        text-align: left; /* Alinea el contenido a la izquierda del bloque */
+        padding: 40px 0;  /* Eliminamos padding lateral para que pegue justo con el borde del banner */
         box-sizing: border-box;
+    }
+
+    /* Ajuste para dispositivos móviles */
+    @media (max-width: 900px) {
+        .container {
+            padding: 20px; /* Añade un poco de margen solo en pantallas pequeñas */
+        }
     }
 
     h1 { font-size: 3em; margin-bottom: 5px; }
