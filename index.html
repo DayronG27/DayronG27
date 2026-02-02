@@ -42,19 +42,35 @@
     h1 { font-size: 3em; margin-bottom: 5px; color: #ffffff; }
     h2, h3 { color: #ffffff; }
     
-    /* CAMBIO CLAVE: Texto en blanco puro */
     p { color: #ffffff; margin-top: 5px; line-height: 1.6; }
     
-    /* Resaltado opcional para el cargo */
     .role-title { color: #00ffcc; font-size: 1.2em; }
 
+    /* ESTILO PARA LOS CUADROS DE TEXTO (BADGES) */
     .skills { 
         display: flex; 
         justify-content: flex-start; 
         flex-wrap: wrap; 
+        gap: 10px; /* Espacio entre cuadros */
         margin: 20px 0;
     }
-    .skills img { margin-right: 15px; margin-bottom: 15px; }
+
+    .skill-badge {
+        background-color: #111;
+        color: #ffffff;
+        border: 1px solid #00ffcc; /* Borde neón */
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-size: 0.9em;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .skill-badge:hover {
+        background-color: #00ffcc;
+        color: #000;
+        box-shadow: 0 0 10px #00ffcc;
+    }
 
     a { 
         color: #00ffcc; 
@@ -81,15 +97,21 @@
         <p class="role-title"><strong>Analista QA | Agile Scrum | Postman</strong></p>
         <p>Apasionado por la tecnología, con experiencia en el desarrollo de aplicaciones web y herramientas de código abierto. Enfocado en la calidad del software, la automatización de pruebas y la arquitectura escalable.</p>
 
-            <hr>
+        <hr>
 
         <h2>🛠️ Stack Tecnológico</h2>
         <div class="skills">
-            <img src="https://skillicons.dev/icons?i=html,css,html,php,postgres,gitlab,Test-link,OTRS,postman,flutter&theme=dark" />
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">Postman</span>
+            <span class="skill-badge">TestLink</span>
+            <span class="skill-badge">OTRS</span>
+            <span class="skill-badge">Agile Scrum</span>
+            <span class="skill-badge">PHP</span>
+            <span class="skill-badge">HTML/CSS</span>
+            <span class="skill-badge">Flutter</span>
+            <span class="skill-badge">GitLab</span>
         </div>
 
-        <hr>
-        
         <hr>
         
         <h2>🚀 Proyectos Destacados</h2>
@@ -105,7 +127,7 @@
             <a href="https://www.npmjs.com/package/prime-num" target="_blank">Ver en NPM</a>
         </div>
         
-    
+        <hr>
 
         <h2>🎓 Educación</h2>
         <p><strong>Indian Institute of Information Technology (IIIT), Ranchi</strong><br>
