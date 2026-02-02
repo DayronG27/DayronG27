@@ -3,66 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Dayron Gonzalez</title>
-    <style>
-        /* Base del sitio */
-        body {
-            background-color: #000000;
-            color: #ffffff; /* Texto blanco puro garantizado */
-            font-family: sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+<style>
+    body {
+        background-color: #000000;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-        /* Centrado del Banner */
-        .banner-container {
-            width: 100%;
-            text-align: center;
-        }
-        .banner-img {
-            max-width: 900px;
-            width: 100%;
-            height: auto;
-        }
+    .banner-container {
+        width: 100%;
+        text-align: center;
+        background-color: #000;
+        display: block;
+    }
 
-        /* Contenedor alineado a la izquierda con el banner */
+    .banner-img {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+    }
+
+    .container { 
+        max-width: 900px; 
+        margin: 0 auto;   
+        text-align: left; 
+        padding: 40px 0;  
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 900px) {
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            text-align: left;
+            padding: 20px; 
         }
+    }
 
-        /* Estilo de los cuadros (Badges) */
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .skill-badge {
-            border: 1px solid #00ffcc; /* Borde neón */
-            color: #ffffff;           /* Texto blanco dentro del cuadro */
-            padding: 8px 15px;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 14px;
-        }
+    h1 { font-size: 3em; margin-bottom: 5px; color: #ffffff; }
+    h2, h3 { color: #ffffff; }
+    
+    /* CAMBIO CLAVE: Texto en blanco puro */
+    p { color: #ffffff; margin-top: 5px; line-height: 1.6; }
+    
+    /* Resaltado opcional para el cargo */
+    .role-title { color: #00ffcc; font-size: 1.2em; }
 
-        /* Títulos y enlaces */
-        h1 { font-size: 3em; color: #ffffff; margin: 0; }
-        h2 { color: #ffffff; border-bottom: 1px solid #333; padding-bottom: 10px; }
-        .role { color: #00ffcc; font-weight: bold; font-size: 1.2em; margin-bottom: 20px; }
-        
-        a {
-            color: #00ffcc;
-            text-decoration: none;
-            border: 1px solid #00ffcc;
-            padding: 10px 20px;
-            display: inline-block;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    .skills { 
+        display: flex; 
+        justify-content: flex-start; 
+        flex-wrap: wrap; 
+        margin: 20px 0;
+    }
+    .skills img { margin-right: 15px; margin-bottom: 15px; }
+
+    a { 
+        color: #00ffcc; 
+        text-decoration: none; 
+        border: 1px solid #00ffcc; 
+        padding: 10px 20px; 
+        margin-right: 10px; 
+        margin-bottom: 10px;
+        display: inline-block; 
+        transition: 0.3s;
+    }
+    a:hover { background: #00ffcc; color: #000; box-shadow: 0 0 10px #00ffcc; }
+    
+    hr { border: 0; border-top: 1px solid #333; margin: 20px 0; }
+</style>
 </head>
 <body>
 
@@ -72,25 +79,38 @@
 
     <div class="container">
         <h1>DAYRON GONZALEZ</h1>
-        <p class="role">Analista QA | Agile Scrum | Postman</p>
+        <p class="role-title"><strong>Analista QA | Agile Scrum | Postman</strong></p>
+        <p>Apasionado por la tecnología, con experiencia en el desarrollo de aplicaciones web y herramientas de código abierto. Enfocado en la calidad del software, la automatización de pruebas y la arquitectura escalable.</p>
         
-        <p>Apasionado por la tecnología, enfocado en la calidad del software y el desarrollo de herramientas eficientes.</p>
+        <hr>
+        
+        <h2>🚀 Proyectos Destacados</h2>
+        <div style="margin-bottom: 20px;">
+            <h3>Master Portfolio</h3>
+            <p>Un portafolio profesional construido con React para mostrar proyectos de forma dinámica.</p>
+            <a href="https://github.com/vimalverma558/master-portfolio" target="_blank">Ver Repositorio</a>
+        </div>
 
-        <h2>🚀 Proyectos</h2>
-        <h3>Master Portfolio</h3>
-        <p>Portafolio en React para mostrar proyectos de forma profesional.</p>
-        <a href="https://github.com/vimalverma558/master-portfolio" target="_blank">Ver Proyecto</a>
+        <div style="margin-bottom: 20px;">
+            <h3>Prime-Num (NPM Package)</h3>
+            <p>Herramienta lógica desarrollada en Node.js para el manejo y validación de números primos.</p>
+            <a href="https://www.npmjs.com/package/prime-num" target="_blank">Ver en NPM</a>
+        </div>
+        
+        <hr>
 
         <h2>🛠️ Stack Tecnológico</h2>
         <div class="skills">
-            <span class="skill-badge">PostgreSQL</span>
-            <span class="skill-badge">Postman</span>
-            <span class="skill-badge">TestLink</span>
-            <span class="skill-badge">Agile Scrum</span>
-            <span class="skill-badge">QA Manual</span>
-            <span class="skill-badge">JavaScript</span>
-            <span class="skill-badge">Node.js</span>
+            <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,postgres,mongodb,py,git,github,postman,flutter&theme=dark" />
         </div>
+
+        <hr>
+
+        <h2>🎓 Educación</h2>
+        <p><strong>Indian Institute of Information Technology (IIIT), Ranchi</strong><br>
+        Grado en Ingeniería / Tecnología | 2023 - Presente</p>
+
+        <hr>
 
         <h2>📬 Contacto</h2>
         <a href="mailto:tuemail@gmail.com">Enviar Email</a>
