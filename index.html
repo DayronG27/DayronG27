@@ -5,29 +5,35 @@
     <title>Dayron Gonzalez | CV</title>
     <style>
         body {
-        <div style="width: 100%; text-align: center;">
-       <img src="nombre-de-tu-archivo.gif" alt="Banner Animado" style="width: 100%; max-width: 900px; border-radius: 10px; margin-bottom: 20px;">
-      </div>
             background-color: #000000;
             color: #ffffff;
             font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 50px;
+            padding: 20px; /* Reducido para que el banner luzca mejor */
+            margin: 0;
         }
         .container { max-width: 800px; text-align: center; }
-        h1 { font-size: 3em; margin-bottom: 10px; }
+        h1 { font-size: 3em; margin-top: 20px; margin-bottom: 10px; }
         .skills img { margin: 10px; transition: 0.3s; }
         .skills img:hover { transform: scale(1.2); }
-        a { color: #00ffcc; text-decoration: none; border: 1px solid #00ffcc; padding: 10px; margin: 5px; display: inline-block; }
+        a { color: #00ffcc; text-decoration: none; border: 1px solid #00ffcc; padding: 10px; margin: 5px; display: inline-block; border-radius: 5px; }
+        a:hover { background: #00ffcc; color: #000; }
+        .banner-img { width: 100%; max-width: 900px; border-radius: 10px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
+
+    <div style="width: 100%; text-align: center;">
+        <img src="banner.gif" alt="Banner Animado" class="banner-img">
+    </div>
+
     <div class="container">
         <h1>DAYRON GONZALEZ</h1>
         <p>Analista | Desarrollador | Estudiante en IIIT Ranchi</p>
-        <hr>
+        <hr style="border: 0.5px solid #333;">
+        
         <h2>Mis Proyectos</h2>
         <a href="https://github.com/vimalverma558/master-portfolio">Master Portfolio</a>
         <a href="https://www.npmjs.com/package/prime-num">NPM Package</a>
