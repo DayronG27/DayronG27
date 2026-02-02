@@ -61,7 +61,3 @@ img src="banner.gif" width="100%">
 <img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-html-5.svg" width="50px"> <img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-css3.svg" width="50px"> <img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-bootstrap.svg" width="50px"
 
 
-
-
-
-colocalo para que todo se vea con fondo negro
