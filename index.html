@@ -2,86 +2,98 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Dayron Gonzalez</title>
-<style>
-    body {
-        background-color: #000000;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    .banner-container {
-        width: 100%;
-        text-align: center;
-        background-color: #000;
-        display: block;
-    }
-
-    .banner-img {
-        width: 100%;
-        max-width: 900px;
-        height: auto;
-    }
-
-    .container { 
-        max-width: 900px; 
-        margin: 0 auto;   
-        text-align: left; 
-        padding: 40px 0;  
-        box-sizing: border-box;
-    }
-
-    @media (max-width: 900px) {
-        .container {
-            padding: 20px; 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayron Gonzalez | Portafolio</title>
+    <style>
+        /* Reseteo básico para evitar espacios en blanco */
+        body {
+            background-color: #000000; /* Fondo negro sólido */
+            color: #ffffff;           /* Texto blanco puro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: block;
         }
-    }
 
-    h1 { font-size: 3em; margin-bottom: 5px; color: #ffffff; }
-    h2, h3 { color: #ffffff; margin-top: 30px; }
-    
-    /* Texto en blanco puro para toda la bio */
-    p { color: #ffffff; margin-top: 5px; line-height: 1.6; }
-    
-    .role-title { color: #00ffcc; font-size: 1.2em; margin-bottom: 15px; }
+        /* Centrado del banner */
+        .banner-container {
+            width: 100%;
+            text-align: center;
+            background-color: #000000;
+        }
 
-    /* NUEVO ESTILO: Cuadros de texto para Stack Tecnológico */
-    .skills { 
-        display: flex; 
-        justify-content: flex-start; 
-        flex-wrap: wrap; 
-        gap: 12px; 
-        margin: 20px 0;
-    }
+        .banner-img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
 
-    .skill-badge {
-        background-color: #111;
-        color: #ffffff;
-        border: 1px solid #00ffcc; /* Borde neón a juego con el banner */
-        padding: 8px 16px;
-        border-radius: 4px;
-        font-size: 0.9em;
-        font-weight: bold;
-        transition: 0.3s ease;
-    }
+        /* Contenedor principal alineado con el banner */
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto;   
+            text-align: left; 
+            padding: 40px 20px; 
+            box-sizing: border-box;
+        }
 
-    .skill-badge:hover {
-        background-color: #00ffcc;
-        color: #000000;
-        box-shadow: 0 0 15px #00ffcc;
-        transform: translateY(-3px);
-    }
+        /* Títulos en blanco brillante */
+        h1 { font-size: 3em; margin-bottom: 5px; color: #ffffff; }
+        h2, h3 { color: #ffffff; margin-top: 30px; }
+        
+        /* Párrafos en blanco puro */
+        p { color: #ffffff; margin-top: 5px; line-height: 1.6; }
+        
+        /* Título del cargo en color neón */
+        .role-title { color: #00ffcc; font-size: 1.2em; font-weight: bold; margin-bottom: 15px; }
 
-    a { 
-        color: #00ffcc; 
-        text-decoration: none; 
-        border: 1px solid #00ffcc; 
-        padding: 10px 20px; 
-        margin-right: 10px; 
-        margin-bottom: 10px;
-        display: inline-block; 
-        transition: 0.3s;
-    }
-    a:hover { background: #00ffcc; color: #000; box-shadow
+        /* Estilo de los cuadros (badges) del Stack */
+        .skills { 
+            display: flex; 
+            justify-content: flex-start; 
+            flex-wrap: wrap; 
+            gap: 12px; 
+            margin: 20px 0;
+        }
+
+        .skill-badge {
+            background-color: #111111;
+            color: #ffffff;
+            border: 1px solid #00ffcc; /* Borde cian neón */
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .skill-badge:hover {
+            background-color: #00ffcc;
+            color: #000000;
+            box-shadow: 0 0 15px #00ffcc;
+            transform: translateY(-3px);
+        }
+
+        /* Botones de proyectos y contacto */
+        a { 
+            color: #00ffcc; 
+            text-decoration: none; 
+            border: 1px solid #00ffcc; 
+            padding: 10px 20px; 
+            margin-right: 10px; 
+            margin-bottom: 10px;
+            display: inline-block; 
+            transition: 0.3s;
+            border-radius: 4px;
+        }
+        a:hover { background: #00ffcc; color: #000; box-shadow: 0 0 10px #00ffcc; }
+        
+        hr { border: 0; border-top: 1px solid #333333; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+    <div class="banner-container">
+        <img src="banner.gif" alt="Banner Dayron" class="
