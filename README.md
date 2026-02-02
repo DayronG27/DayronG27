@@ -1,4 +1,4 @@
-<img src="banner.gif" width="100%">
+<img src="bannerr.gif" width="100%">
 
 <p align="center">
   <samp>
