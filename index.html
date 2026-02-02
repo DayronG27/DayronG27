@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Dayron Gonzalez</title>
+    <title>Dayron Gonzalez | QA Analyst</title>
 <style>
     body {
         background-color: #000000;
@@ -29,24 +29,17 @@
         max-width: 900px; 
         margin: 0 auto;   
         text-align: left; 
-        padding: 40px 0;  
+        padding: 40px 20px; /* Padding lateral para que no toque bordes en móviles */
         box-sizing: border-box;
     }
 
-    @media (max-width: 900px) {
-        .container {
-            padding: 20px; 
-        }
-    }
-
     h1 { font-size: 3em; margin-bottom: 5px; color: #ffffff; }
-    h2, h3 { color: #ffffff; }
-    
+    h2, h3 { color: #ffffff; margin-top: 25px; }
     p { color: #ffffff; margin-top: 5px; line-height: 1.6; }
     
-    .role-title { color: #00ffcc; font-size: 1.2em; }
+    .role-title { color: #00ffcc; font-size: 1.2em; font-weight: bold; }
 
-    /* CONTENEDOR DE STACK */
+    /* CONTENEDOR DE STACK TÉCNICO EN CUADROS */
     .skills { 
         display: flex; 
         justify-content: flex-start; 
@@ -64,21 +57,97 @@
         font-size: 0.9em;
         font-weight: bold;
         transition: 0.3s;
-        border: 1px solid #ffffff; /* Color por defecto */
+        border: 1px solid #ffffff;
     }
 
-    /* CLASES DE COLORES ESPECÍFICOS */
-    .sql { border-color: #336791; } /* Azul PostgreSQL */
-    .sql:hover { background: #336791; box-shadow: 0 0 10px #336791; color: #fff; }
+    /* COLORES ESPECÍFICOS PARA LOS CUADROS */
+    .sql { border-color: #336791; }
+    .sql:hover { background: #336791; box-shadow: 0 0 10px #336791; }
 
-    .api { border-color: #FF6C37; } /* Naranja Postman */
-    .api:hover { background: #FF6C37; box-shadow: 0 0 10px #FF6C37; color: #fff; }
+    .api { border-color: #FF6C37; }
+    .api:hover { background: #FF6C37; box-shadow: 0 0 10px #FF6C37; }
 
-    .qa { border-color: #00ffcc; } /* Cian QA/Scrum */
+    .qa { border-color: #00ffcc; }
     .qa:hover { background: #00ffcc; box-shadow: 0 0 10px #00ffcc; color: #000; }
 
-    .lang { border-color: #f7df1e; } /* Amarillo Lenguajes */
+    .lang { border-color: #f7df1e; }
     .lang:hover { background: #f7df1e; box-shadow: 0 0 10px #f7df1e; color: #000; }
 
-    .mobile { border-color: #02569B; } /* Azul Flutter */
-    .mobile:hover { background: #02569B; box-shadow: 0 0 10px #02
+    .mobile { border-color: #02569B; }
+    .mobile:hover { background: #02569B; box-shadow: 0 0 10px #02569B; }
+
+    .git { border-color: #F05032; }
+    .git:hover { background: #F05032; box-shadow: 0 0 10px #F05032; }
+
+    /* BOTONES DE PROYECTOS Y CONTACTO */
+    a { 
+        color: #00ffcc; 
+        text-decoration: none; 
+        border: 1px solid #00ffcc; 
+        padding: 10px 20px; 
+        margin-right: 10px; 
+        margin-bottom: 10px;
+        display: inline-block; 
+        transition: 0.3s;
+    }
+    a:hover { background: #00ffcc; color: #000; box-shadow: 0 0 10px #00ffcc; }
+    
+    hr { border: 0; border-top: 1px solid #333; margin: 20px 0; }
+</style>
+</head>
+<body>
+
+    <div class="banner-container">
+        <img src="banner.gif" alt="Banner Dayron" class="banner-img">
+    </div>
+
+    <div class="container">
+        <h1>DAYRON GONZALEZ</h1>
+        <p class="role-title">Analista QA | Agile Scrum | Postman</p>
+        <p>Apasionado por la tecnología, con experiencia en el desarrollo de aplicaciones web y herramientas de código abierto. Enfocado en la calidad del software, la automatización de pruebas y la arquitectura escalable.</p>
+
+        <hr>
+
+        <h2>🛠️ Stack Tecnológico</h2>
+        <div class="skills">
+            <span class="skill-badge sql">PostgreSQL</span>
+            <span class="skill-badge api">Postman</span>
+            <span class="skill-badge qa">TestLink</span>
+            <span class="skill-badge qa">OTRS</span>
+            <span class="skill-badge qa">Agile Scrum</span>
+            <span class="skill-badge lang">PHP</span>
+            <span class="skill-badge lang">HTML/CSS</span>
+            <span class="skill-badge mobile">Flutter</span>
+            <span class="skill-badge git">GitLab</span>
+        </div>
+
+        <hr>
+        
+        <h2>🚀 Proyectos Destacados</h2>
+        <div style="margin-bottom: 20px;">
+            <h3>Master Portfolio</h3>
+            <p>Un portafolio profesional construido con React para mostrar proyectos de forma dinámica.</p>
+            <a href="https://github.com/vimalverma558/master-portfolio" target="_blank">Ver Repositorio</a>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3>Prime-Num (NPM Package)</h3>
+            <p>Herramienta lógica desarrollada en Node.js para el manejo y validación de números primos.</p>
+            <a href="https://www.npmjs.com/package/prime-num" target="_blank">Ver en NPM</a>
+        </div>
+
+        <hr>
+
+        <h2>🎓 Educación</h2>
+        <p><strong>Indian Institute of Information Technology (IIIT), Ranchi</strong><br>
+        Grado en Ingeniería / Tecnología | 2023 - Presente</p>
+
+        <hr>
+
+        <h2>📬 Contacto</h2>
+        <a href="mailto:tuemail@gmail.com">Enviar Email</a>
+        <a href="https://linkedin.com/in/tu-usuario" target="_blank">LinkedIn</a>
+    </div>
+
+</body>
+</html>
