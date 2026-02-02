@@ -1,39 +1,39 @@
-<img src="banner.gif" width="100%">
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=000000&height=100&section=header&text=%20&fontSize=50" />
+  <img src="https://capsule-render.vercel.app/render?type=rect&color=000000&height=120&section=header&text=Dayron%20Gonzalez&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%">
 </p>
 
 <p align="center">
   <samp>
-    Hi,<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/Hi.gif" width="20px">Hola , Mi nombre es Dayron Gonzalez  <a href="https://github.com/IIITians-Network">@IIITians-Networks :octocat:</a>. Student at IIIT Ranchi :india:
+    Hi, <img src="https://raw.githubusercontent.com/MartinS034/MartinS034/main/assets/hi.gif" width="20px"> Hola, mi nombre es <b>Dayron Gonzalez</b> <a href="https://github.com/IIITians-Network">@IIITians-Networks :octocat:</a>. Student at IIIT Ranchi :india:
   </samp>
 </p>
 
+<img align="right" width="300" alt="GIF" src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/dino.gif" />
 
-<img align="right" width="375" alt="GIF" src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/dino.gif" />
-
-
-
-## :pencil2: My Works: :trophy:  
-- [Master-Portfolio](https://github.com/vimalverma558/master-portfolio)   
-- [Letskhabar](https://letskhabar.com)
-- [Vimal](https://vimal.letskhabar.com)
+## :pencil2: My Works: :trophy:
+- [Master-Portfolio](https://github.com/vimalverma558/master-portfolio)
 - [IIITians-Network Open Source](https://github.com/IIITians-Network/Open-Source)
 - [Covid-19](https://covid-19.letskhabar.com/)
-- [Letskhabar Dev](https://dev.letskhabar.com)
-- [Bob](https://github.com/vimalverma558/Bob)
-- ### :robot: Open Source Packages :octocat:
-  - prime-num is javascript packages for find primes number [Prime-num](https://www.npmjs.com/package/prime-num)
-  - Rive_design is Flutter Packages for Rive(Flare) [Rive_design](https://pub.dev/packages/rive_design)
 
- ## :trophy: Languages and Tools: :robot:
+### :robot: Open Source Packages :octocat:
+- [Prime-num](https://www.npmjs.com/package/prime-num) - JS Package.
+- [Rive_design](https://pub.dev/packages/rive_design) - Flutter Package.
 
-<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-html-5.svg" width="50px"> <img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-css3.svg" width="50px"> <img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-bootstrap.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-javascript-logo.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-react.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-nodejs.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-mongodb.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-firebase.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-flutter.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-git.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-github.svg" width="50px"><img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-php-logo.svg" width="50px">
+## :trophy: Languages and Tools: :robot:
 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,react,nodejs,mongodb,firebase,flutter,git,github,php&theme=dark" />
+</p>
 
 ## :mailbox: Get in touch: 💬
-[<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-linkedin.svg" width="30px">](https://www.linkedin.com/in/vimalverma558/)
-[<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-dev.svg" width="30px">](https://dev.to/vimal)
-[<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-twitter.svg" width="30px">](https://twitter.com/vimalverma558)
-[<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-important-mail.svg" width="30px">](mailto:kumarvimal558@gmail.com)
-[<img src="https://github.com/vimalverma558/vimalverma558/blob/v2/img/icons8-website.svg" width="30px">](https://vimal.letskhabar.com)
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/vimalverma558/">
+    <img src="https://skillicons.dev/icons?i=linkedin,twitter,devto,gmail&theme=dark" />
+  </a>
+</p>
+
+---
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_AQUI&show_icons=true&theme=high_contrast&hide_border=true" />
+</p>
